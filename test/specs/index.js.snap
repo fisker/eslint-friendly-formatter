@@ -3,186 +3,186 @@
 exports[`eslint-friendly-formatter --eff-filter option should produce the expected output for the given input: single-error 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90mindex.js:8:2[39m[24m
+     index.js:8:2
 
-[33m[1m✘ 3 problems (0 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (0 errors, 1 warning)
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+
+Warnings:
+  1  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: basic 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90m/home/usr/roy/index.js:8:2[39m[24m
+     /home/usr/roy/index.js:8:2
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      expect is defined but never used
 
 
-     [4m[90m/home/usr/roy/test/specs/index.js:3:6[39m[24m
+     /home/usr/roy/test/specs/index.js:3:6
    [0m [90m 1 | [39m[0m
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90m/home/usr/roy/test/specs/index.js:4:6[39m[24m
+     /home/usr/roy/test/specs/index.js:4:6
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4m[90m/home/usr/roy/test/runner.js:41:2[39m[24m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90m/home/usr/roy/test/runner.js:42:2[39m[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 5 problems (2 errors, 3 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 5 problems (2 errors, 3 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  3  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  3  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: fatal 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ✘  http://eslint.org/docs/rules/
 
      Unexpected token {
 
 
-     [4m[90m/home/usr/roy/index.js:3:13[39m[24m
+     /home/usr/roy/index.js:3:13
    [0m [90m 1 | [39m[0m
 
-[31m[1m✘ 1 problem (1 error, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 1 problem (1 error, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/undefined"
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: missing-line-column 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ⚠  http://eslint.org/docs/rules/
 
      path is defined but never used
 
 
-     [4m[90m/home/usr/roy/index.js:0:0[39m[24m
+     /home/usr/roy/index.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ✘  http://eslint.org/docs/rules/
 
      Expected { after 'if' condition
 
 
-     [4m[90m/home/usr/roy/test/runner.js:0:0[39m[24m
+     /home/usr/roy/test/runner.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90m/home/usr/roy/test/runner.js:42:2[39m[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: missing-messages 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4m[90m/home/usr/roy/test/runner.js:41:2[39m[24m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90m/home/usr/roy/test/runner.js:42:2[39m[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 2 problems (2 errors, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 2 problems (2 errors, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit"
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: missing-rule-id 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ⚠  http://eslint.org/docs/rules/
 
      path is defined but never used
 
 
-     [4m[90m/home/usr/roy/index.js:8:2[39m[24m
+     /home/usr/roy/index.js:8:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ✘  http://eslint.org/docs/rules/
 
      Expected { after 'if' condition
 
 
-     [4m[90m/home/usr/roy/test/runner.js:41:2[39m[24m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90m/home/usr/roy/test/runner.js:42:2[39m[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
@@ -193,204 +193,204 @@ exports[`eslint-friendly-formatter absolute paths to file should produce the exp
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: single-error 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90m/home/usr/roy/index.js:8:2[39m[24m
+     /home/usr/roy/index.js:8:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4m[90m/home/usr/roy/test/runner.js:41:2[39m[24m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90m/home/usr/roy/test/runner.js:42:2[39m[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: basic 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m/home/usr/roy/index.js:8:2[24m
+     /home/usr/roy/index.js:8:2
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      expect is defined but never used
 
 
-     [4m/home/usr/roy/test/specs/index.js:3:6[24m
+     /home/usr/roy/test/specs/index.js:3:6
    [0m [90m 1 | [39m[0m
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m/home/usr/roy/test/specs/index.js:4:6[24m
+     /home/usr/roy/test/specs/index.js:4:6
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4m/home/usr/roy/test/runner.js:41:2[24m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m/home/usr/roy/test/runner.js:42:2[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 5 problems (2 errors, 3 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 5 problems (2 errors, 3 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  3  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  3  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: fatal 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ✘  http://eslint.org/docs/rules/
 
      Unexpected token {
 
 
-     [4m/home/usr/roy/index.js:3:13[24m
+     /home/usr/roy/index.js:3:13
    [0m [90m 1 | [39m[0m
 
-[31m[1m✘ 1 problem (1 error, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 1 problem (1 error, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/undefined"
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: missing-line-column 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ⚠  http://eslint.org/docs/rules/
 
      path is defined but never used
 
 
-     [4m/home/usr/roy/index.js:0:0[24m
+     /home/usr/roy/index.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ✘  http://eslint.org/docs/rules/
 
      Expected { after 'if' condition
 
 
-     [4m/home/usr/roy/test/runner.js:0:0[24m
+     /home/usr/roy/test/runner.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m/home/usr/roy/test/runner.js:42:2[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: missing-messages 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4m/home/usr/roy/test/runner.js:41:2[24m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m/home/usr/roy/test/runner.js:42:2[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 2 problems (2 errors, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 2 problems (2 errors, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit"
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: missing-rule-id 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ⚠  http://eslint.org/docs/rules/
 
      path is defined but never used
 
 
-     [4m/home/usr/roy/index.js:8:2[24m
+     /home/usr/roy/index.js:8:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ✘  http://eslint.org/docs/rules/
 
      Expected { after 'if' condition
 
 
-     [4m/home/usr/roy/test/runner.js:41:2[24m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m/home/usr/roy/test/runner.js:42:2[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
@@ -401,240 +401,240 @@ exports[`eslint-friendly-formatter absolute paths to file, no gray should produc
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: single-error 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m/home/usr/roy/index.js:8:2[24m
+     /home/usr/roy/index.js:8:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4m/home/usr/roy/test/runner.js:41:2[24m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m/home/usr/roy/test/runner.js:42:2[24m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter custom rules links open google search should produce the expected output for the given input: single-error 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90mindex.js:8:2[39m[24m
+     index.js:8:2
 
-  [31m✘[39m  [4m[90mhttps://google.com/search?q=[37mplugin-rule%2Fcurly[90m[39m[24m
+  ✘  https://google.com/search?q=plugin-rule%2Fcurly
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:41:2[39m[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttps://google.com/search?q=[37mreact%2Fno-process-exit[90m[39m[24m
+  ✘  https://google.com/search?q=react%2Fno-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttps://google.com/search?q=[37mplugin-rule%2Fcurly[90m[39m[24m
-  1  [4m[90mhttps://google.com/search?q=[37mreact%2Fno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+Errors:
+  1  https://google.com/search?q=plugin-rule%2Fcurly
+  1  https://google.com/search?q=react%2Fno-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: basic 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90mindex.js:8:2[39m[24m
+     index.js:8:2
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      expect is defined but never used
 
 
-     [4m[90mtest/specs/index.js:3:6[39m[24m
+     test/specs/index.js:3:6
    [0m [90m 1 | [39m[0m
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90mtest/specs/index.js:4:6[39m[24m
+     test/specs/index.js:4:6
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:41:2[39m[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 5 problems (2 errors, 3 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 5 problems (2 errors, 3 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  3  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  3  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: fatal 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ✘  http://eslint.org/docs/rules/
 
      Unexpected token {
 
 
-     [4m[90mindex.js:3:13[39m[24m
+     index.js:3:13
    [0m [90m 1 | [39m[0m
 
-[31m[1m✘ 1 problem (1 error, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 1 problem (1 error, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/undefined"
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: missing-line-column 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ⚠  http://eslint.org/docs/rules/
 
      path is defined but never used
 
 
-     [4m[90mindex.js:0:0[39m[24m
+     index.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ✘  http://eslint.org/docs/rules/
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:0:0[39m[24m
+     test/runner.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: missing-messages 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:41:2[39m[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 2 problems (2 errors, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 2 problems (2 errors, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit"
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: missing-rule-id 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ⚠  http://eslint.org/docs/rules/
 
      path is defined but never used
 
 
-     [4m[90mindex.js:8:2[39m[24m
+     index.js:8:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
+  ✘  http://eslint.org/docs/rules/
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:41:2[39m[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
@@ -645,204 +645,204 @@ exports[`eslint-friendly-formatter formatter should produce the expected output 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: single-error 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90mindex.js:8:2[39m[24m
+     index.js:8:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:41:2[39m[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: basic 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4mindex.js:8:2[24m
+     index.js:8:2
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      expect is defined but never used
 
 
-     [4mtest/specs/index.js:3:6[24m
+     test/specs/index.js:3:6
    [0m [90m 1 | [39m[0m
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4mtest/specs/index.js:4:6[24m
+     test/specs/index.js:4:6
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4mtest/runner.js:41:2[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4mtest/runner.js:42:2[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 5 problems (2 errors, 3 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 5 problems (2 errors, 3 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  3  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  3  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: fatal 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ✘  http://eslint.org/docs/rules/
 
      Unexpected token {
 
 
-     [4mindex.js:3:13[24m
+     index.js:3:13
    [0m [90m 1 | [39m[0m
 
-[31m[1m✘ 1 problem (1 error, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 1 problem (1 error, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/undefined"
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: missing-line-column 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ⚠  http://eslint.org/docs/rules/
 
      path is defined but never used
 
 
-     [4mindex.js:0:0[24m
+     index.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ✘  http://eslint.org/docs/rules/
 
      Expected { after 'if' condition
 
 
-     [4mtest/runner.js:0:0[24m
+     test/runner.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4mtest/runner.js:42:2[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: missing-messages 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4mtest/runner.js:41:2[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4mtest/runner.js:42:2[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 2 problems (2 errors, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 2 problems (2 errors, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit"
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: missing-rule-id 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ⚠  http://eslint.org/docs/rules/
 
      path is defined but never used
 
 
-     [4mindex.js:8:2[24m
+     index.js:8:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[24m
+  ✘  http://eslint.org/docs/rules/
 
      Expected { after 'if' condition
 
 
-     [4mtest/runner.js:41:2[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4mtest/runner.js:42:2[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mundefined[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
@@ -853,204 +853,204 @@ exports[`eslint-friendly-formatter no gray should produce the expected output fo
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: single-error 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
 
      path is defined but never used
 
 
-     [4mindex.js:8:2[24m
+     index.js:8:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
 
      Expected { after 'if' condition
 
 
-     [4mtest/runner.js:41:2[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4mtest/runner.js:42:2[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mcurly[39m[24m
-  1  [4mhttp://eslint.org/docs/rules/[37mno-process-exit[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4mhttp://eslint.org/docs/rules/[37mno-unused-vars[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: basic 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [37mno-unused-vars[39m
+  ⚠  no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90mindex.js:8:2[39m[24m
+     index.js:8:2
 
-  [33m⚠[39m  [37mno-unused-vars[39m
+  ⚠  no-unused-vars
 
      expect is defined but never used
 
 
-     [4m[90mtest/specs/index.js:3:6[39m[24m
+     test/specs/index.js:3:6
    [0m [90m 1 | [39m[0m
 
-  [33m⚠[39m  [37mno-unused-vars[39m
+  ⚠  no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90mtest/specs/index.js:4:6[39m[24m
+     test/specs/index.js:4:6
 
-  [31m✘[39m  [37mcurly[39m
+  ✘  curly
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:41:2[39m[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [37mno-process-exit[39m
+  ✘  no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 5 problems (2 errors, 3 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 5 problems (2 errors, 3 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [37mcurly[39m
-  1  [37mno-process-exit[39m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  3  [37mno-unused-vars[39m
+Errors:
+  1  curly
+  1  no-process-exit
+
+Warnings:
+  3  no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: fatal 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  
+  ✘  
 
      Unexpected token {
 
 
-     [4m[90mindex.js:3:13[39m[24m
+     index.js:3:13
    [0m [90m 1 | [39m[0m
 
-[31m[1m✘ 1 problem (1 error, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 1 problem (1 error, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [37mundefined[39m"
+
+Errors:
+  1  undefined"
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: missing-line-column 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  
+  ⚠  
 
      path is defined but never used
 
 
-     [4m[90mindex.js:0:0[39m[24m
+     index.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  
+  ✘  
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:0:0[39m[24m
+     test/runner.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [37mno-process-exit[39m
+  ✘  no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [37mundefined[39m
-  1  [37mno-process-exit[39m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [37mundefined[39m
+Errors:
+  1  undefined
+  1  no-process-exit
+
+Warnings:
+  1  undefined
 "
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: missing-messages 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [37mcurly[39m
+  ✘  curly
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:41:2[39m[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [37mno-process-exit[39m
+  ✘  no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 2 problems (2 errors, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 2 problems (2 errors, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [37mcurly[39m
-  1  [37mno-process-exit[39m"
+
+Errors:
+  1  curly
+  1  no-process-exit"
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: missing-rule-id 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  
+  ⚠  
 
      path is defined but never used
 
 
-     [4m[90mindex.js:8:2[39m[24m
+     index.js:8:2
 
-  [31m✘[39m  
+  ✘  
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:41:2[39m[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [37mno-process-exit[39m
+  ✘  no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [37mundefined[39m
-  1  [37mno-process-exit[39m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [37mundefined[39m
+Errors:
+  1  undefined
+  1  no-process-exit
+
+Warnings:
+  1  undefined
 "
 `;
 
@@ -1061,218 +1061,218 @@ exports[`eslint-friendly-formatter no links to rules should produce the expected
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: single-error 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [37mno-unused-vars[39m
+  ⚠  no-unused-vars
 
      path is defined but never used
 
 
-     [4m[90mindex.js:8:2[39m[24m
+     index.js:8:2
 
-  [31m✘[39m  [37mcurly[39m
+  ✘  curly
 
      Expected { after 'if' condition
 
 
-     [4m[90mtest/runner.js:41:2[39m[24m
+     test/runner.js:41:2
 
-  [31m✘[39m  [37mno-process-exit[39m
+  ✘  no-process-exit
 
      Don't use process.exit(); throw an error instead
 
 
-     [4m[90mtest/runner.js:42:2[39m[24m
+     test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [37mcurly[39m
-  1  [37mno-process-exit[39m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [37mno-unused-vars[39m
+Errors:
+  1  curly
+  1  no-process-exit
+
+Warnings:
+  1  no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: basic 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=8&column=2[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=8&column=2
 
      path is defined but never used
 
 
-     [90m/home/usr/roy/index.js:8:2[39m
+     /home/usr/roy/index.js:8:2
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Fspecs%2Findex.js&line=3&column=6[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Fspecs%2Findex.js&line=3&column=6
 
      expect is defined but never used
 
 
-     [90m/home/usr/roy/test/specs/index.js:3:6[39m
+     /home/usr/roy/test/specs/index.js:3:6
    [0m [90m 1 | [39m[0m
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Fspecs%2Findex.js&line=4&column=6[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Fspecs%2Findex.js&line=4&column=6
 
      path is defined but never used
 
 
-     [90m/home/usr/roy/test/specs/index.js:4:6[39m
+     /home/usr/roy/test/specs/index.js:4:6
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=41&column=2[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=41&column=2
 
      Expected { after 'if' condition
 
 
-     [90m/home/usr/roy/test/runner.js:41:2[39m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2
 
      Don't use process.exit(); throw an error instead
 
 
-     [90m/home/usr/roy/test/runner.js:42:2[39m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 5 problems (2 errors, 3 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 5 problems (2 errors, 3 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  3  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  3  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: fatal 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=3&column=13[39m[24m
+  ✘  http://eslint.org/docs/rules/
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=3&column=13
 
      Unexpected token {
 
 
-     [90m/home/usr/roy/index.js:3:13[39m
+     /home/usr/roy/index.js:3:13
    [0m [90m 1 | [39m[0m
 
-[31m[1m✘ 1 problem (1 error, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 1 problem (1 error, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/undefined"
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: missing-line-column 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=0&column=0[39m[24m
+  ⚠  http://eslint.org/docs/rules/
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=0&column=0
 
      path is defined but never used
 
 
-     [90m/home/usr/roy/index.js:0:0[39m
+     /home/usr/roy/index.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=0&column=0[39m[24m
+  ✘  http://eslint.org/docs/rules/
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=0&column=0
 
      Expected { after 'if' condition
 
 
-     [90m/home/usr/roy/test/runner.js:0:0[39m
+     /home/usr/roy/test/runner.js:0:0
    [0m [90m 1 | [39m[0m
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2
 
      Don't use process.exit(); throw an error instead
 
 
-     [90m/home/usr/roy/test/runner.js:42:2[39m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: missing-messages 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=41&column=2[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=41&column=2
 
      Expected { after 'if' condition
 
 
-     [90m/home/usr/roy/test/runner.js:41:2[39m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2
 
      Don't use process.exit(); throw an error instead
 
 
-     [90m/home/usr/roy/test/runner.js:42:2[39m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 2 problems (2 errors, 0 warnings)[22m[39m[37m[39m
-[37m[39m
+✘ 2 problems (2 errors, 0 warnings)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m"
+
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit"
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: missing-rule-id 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=8&column=2[39m[24m
+  ⚠  http://eslint.org/docs/rules/
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=8&column=2
 
      path is defined but never used
 
 
-     [90m/home/usr/roy/index.js:8:2[39m
+     /home/usr/roy/index.js:8:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=41&column=2[39m[24m
+  ✘  http://eslint.org/docs/rules/
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=41&column=2
 
      Expected { after 'if' condition
 
 
-     [90m/home/usr/roy/test/runner.js:41:2[39m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2
 
      Don't use process.exit(); throw an error instead
 
 
-     [90m/home/usr/roy/test/runner.js:42:2[39m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mundefined[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/undefined
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/undefined
 "
 `;
 
@@ -1283,38 +1283,38 @@ exports[`eslint-friendly-formatter scheme should produce the expected output for
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: single-error 1`] = `
 "]1337;CurrentDir=/path/to/working/directory
 
-  [33m⚠[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=8&column=2[39m[24m
+  ⚠  http://eslint.org/docs/rules/no-unused-vars
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=8&column=2
 
      path is defined but never used
 
 
-     [90m/home/usr/roy/index.js:8:2[39m
+     /home/usr/roy/index.js:8:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=41&column=2[39m[24m
+  ✘  http://eslint.org/docs/rules/curly
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=41&column=2
 
      Expected { after 'if' condition
 
 
-     [90m/home/usr/roy/test/runner.js:41:2[39m
+     /home/usr/roy/test/runner.js:41:2
 
-  [31m✘[39m  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
-     [4m[90meditor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2[39m[24m
+  ✘  http://eslint.org/docs/rules/no-process-exit
+     editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=42&column=2
 
      Don't use process.exit(); throw an error instead
 
 
-     [90m/home/usr/roy/test/runner.js:42:2[39m
+     /home/usr/roy/test/runner.js:42:2
 
-[31m[1m✘ 3 problems (2 errors, 1 warning)[22m[39m[37m[39m
-[37m[39m
+✘ 3 problems (2 errors, 1 warning)
 
-[31mErrors:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mcurly[90m[39m[24m
-  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-process-exit[90m[39m[24m
 
-[33mWarnings:[39m[37m[39m
-[37m[39m  1  [4m[90mhttp://eslint.org/docs/rules/[37mno-unused-vars[90m[39m[24m
+Errors:
+  1  http://eslint.org/docs/rules/curly
+  1  http://eslint.org/docs/rules/no-process-exit
+
+Warnings:
+  1  http://eslint.org/docs/rules/no-unused-vars
 "
 `;
