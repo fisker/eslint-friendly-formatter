@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`eslint-friendly-formatter --eff-filter option should produce the expected output for the given input: single-error 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -19,7 +19,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: basic 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -70,7 +70,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: fatal 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/
 
@@ -88,7 +88,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: missing-line-column 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
 
@@ -126,7 +126,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: missing-messages 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/curly
 
@@ -151,7 +151,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: missing-rule-id 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
 
@@ -191,7 +191,7 @@ exports[`eslint-friendly-formatter absolute paths to file should produce the exp
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: null-results-provided 1`] = `""`;
 
 exports[`eslint-friendly-formatter absolute paths to file should produce the expected output for the given input: single-error 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -227,7 +227,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: basic 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -278,7 +278,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: fatal 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/
 
@@ -296,7 +296,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: missing-line-column 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
 
@@ -334,7 +334,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: missing-messages 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/curly
 
@@ -359,7 +359,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: missing-rule-id 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
 
@@ -399,7 +399,7 @@ exports[`eslint-friendly-formatter absolute paths to file, no gray should produc
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: null-results-provided 1`] = `""`;
 
 exports[`eslint-friendly-formatter absolute paths to file, no gray should produce the expected output for the given input: single-error 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -435,7 +435,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter custom rules links open google search should produce the expected output for the given input: single-error 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -471,7 +471,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: basic 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -522,7 +522,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: fatal 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/
 
@@ -540,7 +540,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: missing-line-column 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
 
@@ -578,7 +578,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: missing-messages 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/curly
 
@@ -603,7 +603,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: missing-rule-id 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
 
@@ -643,7 +643,7 @@ exports[`eslint-friendly-formatter formatter should produce the expected output 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: null-results-provided 1`] = `""`;
 
 exports[`eslint-friendly-formatter formatter should produce the expected output for the given input: single-error 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -679,7 +679,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: basic 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -730,7 +730,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: fatal 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/
 
@@ -748,7 +748,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: missing-line-column 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
 
@@ -786,7 +786,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: missing-messages 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/curly
 
@@ -811,7 +811,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: missing-rule-id 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
 
@@ -851,7 +851,7 @@ exports[`eslint-friendly-formatter no gray should produce the expected output fo
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: null-results-provided 1`] = `""`;
 
 exports[`eslint-friendly-formatter no gray should produce the expected output for the given input: single-error 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
 
@@ -887,7 +887,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: basic 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  no-unused-vars
 
@@ -938,7 +938,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: fatal 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  
 
@@ -956,7 +956,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: missing-line-column 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  
 
@@ -994,7 +994,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: missing-messages 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  curly
 
@@ -1019,7 +1019,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: missing-rule-id 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  
 
@@ -1059,7 +1059,7 @@ exports[`eslint-friendly-formatter no links to rules should produce the expected
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: null-results-provided 1`] = `""`;
 
 exports[`eslint-friendly-formatter no links to rules should produce the expected output for the given input: single-error 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  no-unused-vars
 
@@ -1095,7 +1095,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: basic 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
      editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=8&column=2
@@ -1151,7 +1151,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: fatal 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/
      editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=3&column=13
@@ -1170,7 +1170,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: missing-line-column 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
      editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=0&column=0
@@ -1211,7 +1211,7 @@ Warnings:
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: missing-messages 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ✘  http://eslint.org/docs/rules/curly
      editor://open?file=%2Fhome%2Fusr%2Froy%2Ftest%2Frunner.js&line=41&column=2
@@ -1238,7 +1238,7 @@ Errors:
 `;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: missing-rule-id 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/
      editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=8&column=2
@@ -1281,7 +1281,7 @@ exports[`eslint-friendly-formatter scheme should produce the expected output for
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: null-results-provided 1`] = `""`;
 
 exports[`eslint-friendly-formatter scheme should produce the expected output for the given input: single-error 1`] = `
-"]1337;CurrentDir=/path/to/working/directory
+"
 
   ⚠  http://eslint.org/docs/rules/no-unused-vars
      editor://open?file=%2Fhome%2Fusr%2Froy%2Findex.js&line=8&column=2
